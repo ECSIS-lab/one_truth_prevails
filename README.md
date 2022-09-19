@@ -9,16 +9,42 @@ More precisely, this repository is designed to reproduce the results of Section 
 
     ```git clone https://github.com/ECSIS-lab/one_truth_prevails.git```
 
-2. Install the modules for the use of our source code dl.py
+2.Download the zip archive of a dataset from <<<URL>>> and unzip it.
+
+3. Place the unzipped data set referring to the following "Repository structure".
+
+4. Install the modules for the use of our source code dl.py
 
     ```pip install numpy tensorflow pandas tqdm```
 
-3. Let training and test datasets of profiring traces be p.npy and a.npy, respectively, and put them at same directory with dl.py.
+5. Let training and test datasets of profiring traces be p.npy and a.npy, respectively, and put them at same directory with dl.py.
 
-4. Execute dl.py.
+6. Execute dl.py.
 
    ```python dl.py``` 
-   
+
+## Repository structure
+The structure of this repository is shown below:
+```
+.
+├── 1024
+│    ├── p.npy                          ┐
+│    ├── p_labels                       ┼─ Download from Google Drive
+│    ├── a.npy                          ┘
+│    ├── a_labels.npy                   ┐
+│    ├── key_for_partial_key_exposure   ┼─ Download from Github
+│    ├── partial_key_exposure.py        ┤
+│    └── dl.py                          ┘
+└── 2048
+     ├── p.npy                          ┐
+     ├── p_labels                       ┼─ Download from Google Drive
+     ├── a.npy                          ┘
+     ├── a_labels.npy                   ┐
+     ├── key_for_partial_key_exposure   ┼─ Download from Github
+     ├── partial_key_exposure.py        ┤
+     └── dl.py                          ┘
+```
+
 ### How to interpret the training result
 
 After executing dl.py, you can find the NN loss and accuracy for training, validation.
