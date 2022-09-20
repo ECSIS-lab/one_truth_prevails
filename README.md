@@ -39,7 +39,7 @@ The structure of this repository is shown below:
      ├── p.npy                          ┐
      ├── p_labels                       ┼─ Download from Google Drive
      ├── a.npy                          ┘
-     ├── a_labels.npy                   ┐
+     ├── a_labels.txt                   ┐
      ├── key_for_partial_key_exposure   ┼─ Download from Github
      ├── partial_key_exposure.py        ┤
      └── dl.py                          ┘
