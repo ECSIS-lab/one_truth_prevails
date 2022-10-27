@@ -9,7 +9,7 @@ More precisely, this repository is designed to reproduce the results of Section 
 
     ```git clone https://github.com/ECSIS-lab/one_truth_prevails.git```
 
-2. Download the zip archive of datasets from <<<URL>>> and unzip it.
+2. Download the zip archive of datasets from https://drive.google.com/drive/folders/1o6eWsfopu70qAVZZx42V4zeM0clA-CL3?usp=sharing and unzip it.
 
 3. Place the unzipped datasets referring to the following "Repository structure".
 
